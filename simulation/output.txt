@@ -1,0 +1,3 @@
+ld_setting1, 1000, 0.1, 0.1
+ld_setting1, 1000, 0.1, 0.1
+ld_setting1, 1000, 0.1, 0.1
