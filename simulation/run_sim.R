@@ -60,7 +60,7 @@ xmin <- 0
 xmax <- 4
 beta <- 20 / sqrt(n)
 exp_rate <- .1
-mode <- 'tc'   # tc - training-set conditional, marg - marginal
+mode <- 'marg'   # tc - training-set conditional, marg - marginal
 
 for(setting in setting_list){
   write(paste(setting, n, alpha, exp_rate, sep = ", "), file = "output.txt", append = TRUE)
